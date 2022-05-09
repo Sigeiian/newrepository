@@ -1,6 +1,44 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <style>
+        body{
+            background-color: darkolivegreen;
+
+        }
+        .heading{
+            color: gold;
+            text-align: center;
+            background-color: olivedrab;
+            font-size: x-large;
+        }
+        .navigationbar{
+            text-align: center;
+            color: gold;
+            list-style-type: none;
+            font-family: "Nunito", sans-serif;
+
+            float: left;
+            margin: auto;
+
+        }
+        li,a{
+            background-color: slategrey;
+            color: limegreen;
+            font-size: large;
+            float: right;
+            font-family: "Nunito", sans-serif;
+            display: block;
+            padding: 40px;
+            margin: auto;
+
+        }
+        .form {
+            text-align: center;
+            color: gold;
+            background-color: olivedrab;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -19,7 +57,28 @@
         <li><a href="#">Our Chefs</a></li>
         <li><a href="#">Our sources</a></li>
     </ul>
+    <br>
 </div>
+<br>
+<div class="h2">
+    <h2>Your order is just a few clicks away!</h2>
+</div>
+<div class="form">
+    <form action="my%20new%20webpage.html">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname">
+        <br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname">
+        <br>
+        <label for="email">Email Address</label>
+        <input type="email" id="email">
+        <br>
+        <label for="order">Order Here</label>
+        <input type="text" id="order">
+        <br>
+    </form>
 
+</div>
 </body>
 </html>
